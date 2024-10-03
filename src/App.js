@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 // import ScatterPlot from './safetycomponent/ScatterPlot/ScatterPlot';
-// import HeatTable from './safetycomponent/HeatTable/HeatTable';
+import HeatTable from './safetycomponent/HeatTable/HeatTable';
 // import LineRace1 from './safetycomponent/LineRace/LineRace1';
 import TreeMap from './safetycomponent/TreeMap/TreeMap.js'
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div className="chart-container">
         {/* <ScatterPlot/> */}
-        {/* <HeatTable/> */}
+        <HeatTable/>
         {/* <LineRace1/> */}
         <TreeMap/>
       </div>
